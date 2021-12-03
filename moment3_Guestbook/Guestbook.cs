@@ -7,7 +7,7 @@ namespace moment3_Guestbook
     //Moment 3 DT071G av Alice Fagerberg
     public class GuestBook
     {
-        private string filename = @"guestbook.json"; //gilen guestbook
+        private string filename = @"guestbook.json"; //filen guestbook
         private List<Guest> guests = new List<Guest>();//lista
 
         public GuestBook()
